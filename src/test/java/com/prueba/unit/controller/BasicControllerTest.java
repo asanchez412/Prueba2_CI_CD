@@ -14,4 +14,11 @@ public class BasicControllerTest {
         var stubExpected = 1;
         assertEquals(stubExpected, stubVariable);
     }
+
+    @Test
+    public void StubFailingTest() {
+        var stubVariable = 2;
+        var stubExpected = 1;
+        assertEquals(stubExpected, stubVariable);
+    }
 }
